@@ -1,0 +1,164 @@
+*, ::after, ::before {
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --swiper-theme-color: #007aff;
+  --swiper-navigation-size: 44px;
+}
+
+body {
+  line-height: 1;
+}
+
+img {
+  border-style: none;
+  max-width: 100%;
+}
+
+button {
+  -webkit-appearance: button;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, optgroup, select, textarea {
+  font-family: Pretendard,Apple SD Gothic Neo,Helvetica Neue,Helvetica,Arial,Trebuchet MS,sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+article, aside, body, div, footer, header, section {
+  user-select: text;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+  border: 0;
+  font-family: "Pretendard","Apple SD Gothic Neo","Helvetica Neue",Helvetica,Arial,"Trebuchet MS",sans-serif;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.main-section {
+  margin-left: -12px;
+  margin-right: -12px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  padding-right: 0;
+  -webkit-box-flex: 0;
+  flex: 0 0 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+}
+
+.banner {
+  background: #ffe9b1 url(https://cdn.comento.kr/images/dreamverse/dreamverse-2023-07.jpg) no-repeat 50%;
+  background-size: cover;
+  height: 390px;
+  padding: 0;
+  position: relative;
+  text-align: inherit;
+}
+
+.app-container {
+  background: transparent;
+  max-width: 1140px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.app-row{
+  margin-left: -12px;
+  margin-right: -12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-col {
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+}
+
+.client-logo {
+  width: 232px;
+  margin-top: 64px!important;
+}
+
+.title {
+  color: #040505;
+  text-align: left;
+  font-weight: 600;
+  font-size: 42px;
+  letter-spacing: -.02em;
+  line-height: 51px;
+  word-wrap: break-word;
+  word-break: keep-all;
+  margin-top: 8px!important;
+}
+
+.subtitle {
+  color: #202325;
+  text-align: left;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 28px;
+  word-wrap: break-word;
+  word-break: keep-all;
+  margin-top: 8px!important;
+}
+
+.attend-button {
+  margin-top: 30px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  height: 60px;
+  line-height: 25px;
+  min-width: 84px;
+  padding: 0 26px;
+  background-color: #2a7de1;
+  -webkit-box-align: center;
+  -webkit-box-pack: center;
+  align-items: center;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex!important;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.button-icon {
+  display: flex!important;
+}

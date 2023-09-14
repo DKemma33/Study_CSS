@@ -1,0 +1,381 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  min-width: 1200px;
+}
+
+a {
+  background-color: transparent;
+}
+
+img {
+  border-style: none;
+}
+
+li {
+  list-style: none;
+}
+
+section.banner-top a {
+  display: flex;
+  transition: height 0.3s ease-in-out 0s;
+  height: 48px;
+}
+
+div.container {
+  background-color: rgb(255, 212, 0);
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.container img {
+  color: transparent;
+  object-fit: cover;
+}
+
+header {
+  display: flex;
+  height: 66px;
+  z-index: 20;
+  background-color: #ffffff;
+  border-bottom: 1px solid transparent;
+  position: sticky;
+  top: 0px;
+  left: 0;
+  right: 0;
+}
+
+header section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+header section a {
+  cursor: pointer;
+  text-decoration: none;
+  width: 85px;
+  height: 26px;
+}
+
+header section form {
+  margin: 0px 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    font-size: 14px;
+}
+
+form {
+  margin: 0px 40px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  font-size: 14px;
+}
+
+form > div {
+  width: 100%;
+  border: 1px solid rgb(48, 52, 65);
+  transition: background-color 0.2s ease 0s, border-color 0.2s ease 0s;
+  display: inline-flex;
+  flex-direction: row;
+  overflow: hidden;
+  cursor: text;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 52, 65);
+  height: 42px;
+  padding: 0px 16px;
+  min-width: 64px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+form div input {
+  outline: none;
+  flex: 1 1 0%;
+  width: 100%;
+  background-image: none;
+  box-sizing: border-box;
+  font-size: inherit;
+  border: none;
+  font-weight: inherit;
+  background-color: transparent;
+  text-align: left;
+  color: inherit;
+}
+
+form div.search-bar {
+  display: flex;
+  align-items: center;
+  padding-left: 7px;
+  justify-content: flex-end;
+  flex-basis: auto;
+}
+
+form div.search-bar span {
+  display: inline-block;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+}
+
+form div.search-bar span svg {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+a.link {
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  line-height: 1;
+  font-weight: 500;
+  transition: background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  user-select: none;
+  max-width: 100%;
+  height: 36px;
+  font-size: 14px;
+  color: rgb(48, 52, 65);
+  white-space: nowrap;
+  padding: 0px;
+  cursor: pointer;
+  min-width: inherit;
+  background-color: transparent;
+  border: none;
+  margin-right: 24px;
+}
+
+a.link span {
+  line-height: 1;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(48, 52, 65);
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+a.link span div {
+  display: flex;
+    gap: 4px;
+}
+
+a.link span div p {
+  margin: 0px;
+  color: rgb(33, 34, 36);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.429;
+  letter-spacing: 0px;
+}
+
+a.link span div div {
+  align-items: center;
+  display: flex;
+  font-weight: 500;
+  font-size: 10px;
+  padding: 2px 6px;
+  border-radius: 11px;
+  color: rgb(75, 148, 250);
+  background-color: rgb(235, 244, 255);
+}
+
+div.nav {
+  margin-left: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+div.nav button {
+  outline: none;
+  box-sizing: border-box;
+  border-radius: 4px;
+  line-height: 1;
+  font-weight: 500;
+  transition: background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  user-select: none;
+  max-width: 100%;
+  height: 36px;
+  font-size: 14px;
+  color: rgb(48, 52, 65);
+  white-space: nowrap;
+  padding: 0px;
+  cursor: pointer;
+  min-width: inherit;
+  background-color: transparent;
+  border: none;
+  margin-right: 18px;
+}
+
+div.nav p {
+  margin: 0px;
+  color: rgb(33, 34, 36);
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.429;
+  letter-spacing: 0px;
+}
+
+div.nav a {
+  outline: none;
+  border-width: 1px;
+  border-style: solid;
+  box-sizing: border-box;
+  border-radius: 4px;
+  line-height: 1;
+  font-weight: 500;
+  transition: background-color 0.3s ease 0s, border-color 0.3s ease 0s;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+  white-space: nowrap;
+  max-width: 100%;
+  height: 36px;
+  font-size: 14px;
+  padding: 0px 16px;
+  min-width: 64px;
+  background-color: rgb(255, 212, 0);
+  border-color: rgb(255, 212, 0);
+  color: rgb(48, 52, 65);
+}
+
+section.category {
+  border-bottom: 1px solid #e4e5ed;
+}
+
+div.category-container {
+  width: 1200px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+div.content {
+  display: flex;
+  align-items: center;
+  height: 48px;
+}
+
+div.category-all {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  height: 48px;
+}
+
+div.category-all button {
+  display: flex;
+  font-size: 16px;
+  color: #303441;
+  background-color: #ffffff;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  gap: 4px;
+  padding: 0;
+}
+
+span.category-all-icon {
+  display: inline-block;
+  color: inherit;
+  font-style: normal;
+  line-height: 0;
+  text-align: center;
+  text-transform: none;
+  vertical-align: -0.125em;
+  text-rendering: optimizeLegibility;
+}
+
+span.category-all-icon svg {
+  display: inline-block;
+}
+
+div.content nav.nav-wrap {
+  margin-left: 20px;
+}
+
+nav.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+nav.nav-container ul {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+nav div.content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin-right: 20px;
+}
+
+div.content-wrap a {
+  display: flex;
+  gap: 2px;
+  text-decoration: none;
+}
+
+div.content-wrap a div {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 48px;
+}
+
+div.content-wrap a div p {
+  margin: 0;
+  color: #212224;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+div.content-wrap img {
+  width: 23px;
+  height: 9px;
+  margin-top: 12px;
+}
